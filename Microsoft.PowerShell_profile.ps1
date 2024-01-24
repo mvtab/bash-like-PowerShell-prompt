@@ -43,6 +43,6 @@ function prompt {
 	$CurrentConsolePath = "${PWD}".Replace(${HOME}, '~').Replace('\','/')
 	Write-Host -NoNewline -ForegroundColor Yellow ${CurrentConsolePath}
     
-	# \n
+	# $
 	return "$ "
 }
